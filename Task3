@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main() {
+    
+    int quantity, total;
+
+    printf("How many pizzas do you want 1,2,or3? ");
+    scanf("%d", &quantity);
+
+    if (quantity == 1) {
+        total = 8;
+        printf("You ordered %d pizza. Total cost is $%d.\n", quantity, total);
+    } else if (quantity == 2) {
+        total = 15;
+        printf("You ordered %d pizzas. Total cost is $%d.\n", quantity, total);
+    } else if (quantity == 3) {
+        total = 21;
+        printf("You ordered %d pizzas. Total cost is $%d.\n", quantity, total);
+    } else {
+        printf("Invalid number of pizzas.\n");
+    }
+
+    return 0;
+}
