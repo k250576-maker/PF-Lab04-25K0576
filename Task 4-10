@@ -123,11 +123,11 @@ int main() {
         printf("10 percent discount for lunch!\n");
     }
     if(sid == 'y'){
-        printf("$2 off for Student ID!");
+        printf("$2 off for Student ID!\n");
     }
     if(delivery == 1){
-        printf("$3 for delivery");
+        printf("$3 for delivery\n");
     }
-    printf("Final total: %d",total);
+    printf("Final total: %.2f",total);
     return 0;
 }
